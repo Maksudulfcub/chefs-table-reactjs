@@ -4,7 +4,7 @@
         "recipe_img": "https://i.ibb.co/xzSnq1k/1.png",
         "recipe_title": "Spaghetti Bolognese",
         "recipe_description": "Classic Italian pasta dish with savory meat sauce.",
-        "calories": "220 calories",
+        "calories": 220,
         "preparing_time": 35,
         "ingredients": [
             "550g ground beef",
@@ -20,7 +20,7 @@
         "recipe_img": "https://i.ibb.co/JnFrJ0r/2.png",
         "recipe_title": "Biryani",
         "recipe_description": "Desi testy biryani of chicken or mutton recipe.",
-        "calories": "500 calories",
+        "calories": 500,
         "preparing_time": 50,
         "ingredients": [
             "basmati rice",
@@ -35,7 +35,7 @@
         "recipe_img": "https://i.ibb.co/RTc7RsD/3.png",
         "recipe_title": "Butter Chicken",
         "recipe_description": "Classic chicken dishes with butter and sauce.",
-        "calories": "250 calories",
+        "calories": 250,
         "preparing_time": 40,
         "ingredients": [
             "chicken",
@@ -50,7 +50,7 @@
         "recipe_img": "https://i.ibb.co/5TjJbk4/4.png",
         "recipe_title": "Palak Paneer",
         "recipe_description": "Desi palak food with paneer.",
-        "calories": "100 calories",
+        "calories": 100,
         "preparing_time": 20,
         "ingredients": [
             "paneer",
@@ -65,7 +65,7 @@
         "recipe_img": "https://i.ibb.co/TqjNQVF/5.png",
         "recipe_title": "Chicken Chow Mein",
         "recipe_description": "Italian chow mein with chicken and vegetables mix.",
-        "calories": "430 calories",
+        "calories": 430,
         "preparing_time": 25,
         "ingredients": [
             "chicken",
@@ -80,7 +80,7 @@
         "recipe_img": "https://i.ibb.co/dgRyx0J/6.png",
         "recipe_title": "Pizza Margherita",
         "recipe_description": "Classic Italian pizza dish of margherita flavour.",
-        "calories": "240 calories",
+        "calories": 240,
         "preparing_time": 35,
         "ingredients": [
             "pizza dough",
