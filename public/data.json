@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "recipe_img": "https://i.ibb.co/xzSnq1k/1.png",
+        "recipe_title": "Spaghetti Bolognese",
+        "recipe_description": "Classic Italian pasta dish with savory meat sauce.",
+        "calories": "220 calories",
+        "preparing_time": 35,
+        "ingredients": [
+            "550g ground beef",
+            "1 onion, chopped",
+            "120ml soy sauce",
+            "2 cloves garlic, minced",
+            "200gm  mushroom",
+            "100gm basil leaf"
+        ]
+    },
+    {
+        "id": 2,
+        "recipe_img": "https://i.ibb.co/JnFrJ0r/2.png",
+        "recipe_title": "Biryani",
+        "recipe_description": "Desi testy biryani of chicken or mutton recipe.",
+        "calories": "500 calories",
+        "preparing_time": 50,
+        "ingredients": [
+            "basmati rice",
+            "chicken or mutton",
+            "yogurt",
+            "onions",
+            "biryani masala"
+        ]
+    },
+    {
+        "id": 3,
+        "recipe_img": "https://i.ibb.co/RTc7RsD/3.png",
+        "recipe_title": "Butter Chicken",
+        "recipe_description": "Classic chicken dishes with butter and sauce.",
+        "calories": "250 calories",
+        "preparing_time": 40,
+        "ingredients": [
+            "chicken",
+            "yogurt or cream",
+            "tomato",
+            "garlic",
+            "ginger"
+        ]
+    },
+    {
+        "id": 4,
+        "recipe_img": "https://i.ibb.co/5TjJbk4/4.png",
+        "recipe_title": "Palak Paneer",
+        "recipe_description": "Desi palak food with paneer.",
+        "calories": "100 calories",
+        "preparing_time": 20,
+        "ingredients": [
+            "paneer",
+            "spinach",
+            "tomato",
+            "garlic",
+            "onion"
+        ]
+    },
+    {
+        "id": 5,
+        "recipe_img": "https://i.ibb.co/TqjNQVF/5.png",
+        "recipe_title": "Chicken Chow Mein",
+        "recipe_description": "Italian chow mein with chicken and vegetables mix.",
+        "calories": "430 calories",
+        "preparing_time": 25,
+        "ingredients": [
+            "chicken",
+            "vegetables",
+            "chow mein",
+            "soy sauce",
+            "oyster sauce"
+        ]
+    },
+    {
+        "id": 6,
+        "recipe_img": "https://i.ibb.co/dgRyx0J/6.png",
+        "recipe_title": "Pizza Margherita",
+        "recipe_description": "Classic Italian pizza dish of margherita flavour.",
+        "calories": "240 calories",
+        "preparing_time": 35,
+        "ingredients": [
+            "pizza dough",
+            "fresh mozzarella cheese",
+            "basil leaves",
+            "extra-virgin olive oil",
+            "salt"
+        ]
+    }
+]
