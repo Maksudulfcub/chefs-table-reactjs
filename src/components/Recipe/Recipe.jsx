@@ -1,6 +1,6 @@
 import { ToastContainer } from "react-toastify";
 
-const Recipe = ({ recipe, handleWantToCook,handleAddCookItem }) => {
+const Recipe = ({ recipe, handleWantToCook }) => {
 
     const { recipe_img, recipe_title, recipe_description, calories, preparing_time, ingredients } = recipe;
 
@@ -25,7 +25,7 @@ const Recipe = ({ recipe, handleWantToCook,handleAddCookItem }) => {
                     <p><span>{preparing_time}</span> minutes</p>
                     <p><span>{calories}</span> calories</p>
                 </div>
-                <button onClick={() => {handleWantToCook(recipe); handleAddCookItem();}} className="px-4 py-2 text-sm text-black font-bold hover:bg-purple-300 bg-green-400 rounded-full">Want to cook</button>
+                <button onClick={() => handleWantToCook(recipe)} className="px-4 py-2 text-sm text-black font-bold hover:bg-purple-300 bg-green-400 rounded-full">Want to cook</button>
                 <ToastContainer />
             </div>
         </div>

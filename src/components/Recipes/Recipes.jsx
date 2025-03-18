@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Recipe from "../Recipe/Recipe";
 
-const Recipes = ({handleWantToCook,handleAddCookItem}) => {
+const Recipes = ({handleWantToCook}) => {
 
     const [recipe, setRecipe] = useState([]);
 
@@ -13,7 +13,7 @@ const Recipes = ({handleWantToCook,handleAddCookItem}) => {
     }, [])
 
     return (
-        <div className="w-2/3">
+        <div className="lg:w-2/3">
             <h2 className="font-bold px-5 lg:px-0">Total Recipes : {recipe.length}</h2>
             <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-5">
                 {
@@ -21,7 +21,6 @@ const Recipes = ({handleWantToCook,handleAddCookItem}) => {
                         key={recipe.id}
                         recipe={recipe}
                         handleWantToCook={handleWantToCook}
-                        handleAddCookItem={handleAddCookItem}
                     ></Recipe>)
                 }
             </div>

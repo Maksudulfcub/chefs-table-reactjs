@@ -7,7 +7,6 @@ import { toast } from 'react-toastify';
 function App() {
 
   const [wantToCook, setWantToCook] = useState([]);
-
   const [cookItem, setCookItem] = useState(0);
 
   const notify = () => toast("Recipe already exists ! Please select another one.");
@@ -19,13 +18,8 @@ function App() {
     else {
       const newCookItem = [...wantToCook, recipe];
       setWantToCook(newCookItem);
+      setCookItem(cookItem + 1);
     }
-  }
-
-  const handleAddCookItem = (item) => {
-    const newItem = cookItem + item;
-    setCookItem(newItem);
-    console.log(newItem);
   }
 
   return (
@@ -41,7 +35,6 @@ function App() {
       <div className='lg:flex gap-10'>
         <Recipes
           handleWantToCook={handleWantToCook}
-          handleAddCookItem={handleAddCookItem}
         ></Recipes>
         <Sidebar wantToCook={wantToCook} cookItem={cookItem}></Sidebar>
       </div>
