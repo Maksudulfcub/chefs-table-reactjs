@@ -1,8 +1,32 @@
+import { useState } from 'react'
 import './App.css'
 import Recipes from './components/Recipes/Recipes'
 import Sidebar from './components/Sidebar/Sidebar'
+import { toast } from 'react-toastify';
 
 function App() {
+
+  const [wantToCook, setWantToCook] = useState([]);
+
+  const [cookItem, setCookItem] = useState(0);
+
+  const notify = () => toast("Recipe already exists ! Please select another one.");
+
+  const handleWantToCook = recipe => {
+    if (wantToCook.includes(recipe)) {
+      notify()
+    }
+    else {
+      const newCookItem = [...wantToCook, recipe];
+      setWantToCook(newCookItem);
+    }
+  }
+
+  const handleAddCookItem = (item) => {
+    const newItem = cookItem + item;
+    setCookItem(newItem);
+    console.log(newItem);
+  }
 
   return (
     <div className='max-w-6xl mt-10 mx-auto'>
@@ -15,8 +39,11 @@ function App() {
 
       {/* Main content */}
       <div className='lg:flex gap-10'>
-        <Recipes></Recipes>
-        <Sidebar></Sidebar>
+        <Recipes
+          handleWantToCook={handleWantToCook}
+          handleAddCookItem={handleAddCookItem}
+        ></Recipes>
+        <Sidebar wantToCook={wantToCook} cookItem={cookItem}></Sidebar>
       </div>
 
     </div>

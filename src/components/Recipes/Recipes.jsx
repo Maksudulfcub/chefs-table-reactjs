@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Recipe from "../Recipe/Recipe";
 
-const Recipes = () => {
+const Recipes = ({handleWantToCook,handleAddCookItem}) => {
 
     const [recipe, setRecipe] = useState([]);
 
@@ -20,6 +20,8 @@ const Recipes = () => {
                     recipe.map(recipe => <Recipe
                         key={recipe.id}
                         recipe={recipe}
+                        handleWantToCook={handleWantToCook}
+                        handleAddCookItem={handleAddCookItem}
                     ></Recipe>)
                 }
             </div>
