@@ -1,6 +1,6 @@
+const CurrentlyCooking = ({ currentlyCook }) => {
 
-const WantToCook = ({ recipe, handleAddCurrentlyCooking,time }) => {
-    const { recipe_title, id, preparing_time, calories } = recipe;
+    const { recipe_title, id, preparing_time, calories } = currentlyCook;
 
     return (
         <div>
@@ -9,10 +9,9 @@ const WantToCook = ({ recipe, handleAddCurrentlyCooking,time }) => {
                 <p>{recipe_title}</p>
                 <p>{preparing_time} minutes</p>
                 <p>{calories} calories</p>
-                <button onClick={() => handleAddCurrentlyCooking(recipe,time)} className="px-2 py-1 text-xs text-black hover:bg-purple-300 bg-green-400 rounded-full">Preparing</button>
             </div>
         </div>
     );
 };
 
-export default WantToCook;
+export default CurrentlyCooking;
